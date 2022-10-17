@@ -39,7 +39,7 @@ public class Main extends Application {
 		
 		for(int i=0; i<5; i++)
 		for(int j=0; j<5; j++)
-			tablero.add(new Rectangle(50,50, Color.BEIGE), i,j);
+			tablero.add(new Rectangle(60,60, Color.BEIGE), i,j);
 		
 		final Circle bola = new Circle(15,Color.RED);
 		tablero.add(bola,2,2);
@@ -122,3 +122,17 @@ public class Main extends Application {
 		launch(args);
 	}
 }
+
+
+
+/*izquierda.setOnMouseClicked(event ->{
+if(event.geButton()== mouseButton.SECONDARY || event.geButton()== mouseButton.SECONDARY) {
+		Alert alert = new Alert (Alert.Alertype.INFORMATION);
+		alert.setHeaderText(null)
+		alert.setTitle(Listillo);
+		alert.setContentText("Haz click con el boton inquierdo")
+	}
+	else 
+		tablero.setColumnIndex(bola, tablero.getColumnIndex)
+	
+})*/
